@@ -78,15 +78,16 @@ runA <- function() {
                 colnames(d_xtest)[i] <- as.character(d_feature[i,2])  
         }
 
-        # subset only columns that contains mean (mean) and standard deviation (std)
+        # step2: Extracts only the measurements on the mean and standard deviation for each measurement. 
+        # NOTE: this is done BEFORE combining the tables because it is simpler to filter out unwanted columns as earlier as possible before further processing
         requiredColumnsList <- c(grep("std[()]",d_feature[[2]], ignore.case = TRUE),grep("mean[()]",d_feature[[2]], ignore.case = TRUE))
         requiredColumnsList <- sort(requiredColumnsList)
 
-#        step 0.4 combine subject, activity, and measurement for all train data 
+#        step 2.1 combine subject, activity, and mean and standard deviation measurements for all train data 
         d_xtrain <- d_xtrain[,requiredColumnsList]
         combidata <- cbind(combidata, d_xtrain) 
 
-#        step 0.5 combine subject, activity, and measurement for all test data 
+#        step 2.2 combine subject, activity, and mean and standard deviation measurements for all test data 
         d_xtest <- d_xtest[,requiredColumnsList]
         combidata2 <- cbind(combidata2, d_xtest) 
 
@@ -94,18 +95,13 @@ runA <- function() {
         combidata <- rbind(combidata,combidata2)
         combidata <- arrange(combidata, subject) 
 
-        # step2: Extracts only the measurements on the mean and standard deviation for each measurement. 
         # step3: Uses descriptive activity names to name the activities in the data set
+
         # step4: Appropriately labels the data set with descriptive variable names. 
 
         # step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-#        secondcombidata <- group_by(combidata, subject, activity)
-#        x <- summarize(secondcombidata, mean=mean(value))
-
-#        combidata %>% 
         maingroup <- group_by(combidata, subject, activity)  
         x<- summarise_each(maingroup, funs(mean))  
-
 
 
         return(x)       
