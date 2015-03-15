@@ -99,9 +99,12 @@ runA <- function() {
         # step4: Appropriately labels the data set with descriptive variable names. 
 
         # step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-        secondcombidata <- group_by(combidata, subject, activity)
-        x <- summarize(secondcombidata)
-#        print(x)
+#        secondcombidata <- group_by(combidata, subject, activity)
+#        x <- summarize(secondcombidata, mean=mean(value))
+
+#        combidata %>% 
+        maingroup <- group_by(combidata, subject, activity)  
+        x<- summarise_each(maingroup, funs(mean))  
 
 
 
