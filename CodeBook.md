@@ -1,18 +1,18 @@
 
 
 
-|Variable|Description|
-|subject| ID of all the subjects whose data were collected from. The ID is from 1 to 30|
-|activity|activity name|
-|domainSignal|Time (domain signal) or Frequency (domain signal)|
-|instrument|Measuring instrument: accelerometer or gyroscope|
-|accelerationSignal|Body or Gravity acceleration signal|
-|stats|mean (mean) or standard deviation (std)|
-|jerk|jerk signal yes or no|
-|magnitude|magnitude|
-|axis|x, y or z axis|
-|count|count data points|
-|average|average of all observations|
+| Variable | Description |
+| subject | ID of all the subjects whose data were collected from. The ID is from 1 to 30 |
+| activity | activity name |
+| domainSignal | Time (domain signal) or Frequency (domain signal) |
+| instrument | Measuring instrument: accelerometer or gyroscope |
+| accelerationSignal | Body or Gravity acceleration signal |
+| stats | mean (mean) or standard deviation (std) |
+| jerk | jerk signal yes or no |
+| magnitude | magnitude |
+| axis | x, y or z axis |
+| count | count data points |
+| average | average of all observations |
 
 Information about the variables (including units!) in the data set not contained in the tidy data
 Information about the summary choices you made
