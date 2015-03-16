@@ -75,13 +75,14 @@ runA <- function() {
         requiredColumnsList <- c(grep("std\\(\\)",d_feature[[2]], ignore.case = TRUE),grep("mean\\(\\)",d_feature[[2]], ignore.case = TRUE))
         requiredColumnsList <- sort(requiredColumnsList)
 
-        # step 2.1 combine subject, activity, and mean and standard deviation measurements for all data 
+        # combine subject, activity, and mean and standard deviation measurements for all data 
         mergeMeasurementData <- mergeMeasurementData[,requiredColumnsList]
         totalData <- cbind(mergeSubjectActivityData,mergeMeasurementData)
         totalData <- arrange(totalData, subject) 
 
         # step3: Uses descriptive activity names to name the activities in the data set
-        #       this has been done in  Step 0.2 and Step 0.3 above, where the activities names are used in the column: "activity"
+        #       this has been done in  Step 0.2 and Step 0.3 above, where the activities names are used in the column: "activity", 
+        #       and the redundant "activity_type" column is removed
 
 
         # step4: Appropriately labels the data set with descriptive variable names. 
