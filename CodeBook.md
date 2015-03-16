@@ -4,9 +4,9 @@
 | Variable        | Description           | Value          |
 | -------------|:-------------|:-------------|
 | subject      | ID of all the subjects whose data were collected from. | from 1 to 30           |
-| activity     | activity name      | tbd          |
+| activity     | activity name      | laying, sitting, standing, walking, walking_downstairs, walking_upstairs          |
 | domainSignal | time domain signals or frequency domain signals      | time, frequency          |
-| instrument     | Measuring instrument:       | accelerometer, gyroscope          |
+| instrument     | measuring instrument       | accelerometer, gyroscope          |
 | accelerationSignal     | body or gravity acceleration signals      | body, gravity          |
 | stats     | type of statistics data: mean (mean) or standard deviation (std)      | mean, std          |
 | jerk     | jerk signal derived from body linear acceleration and angular velocity | jerk, NA          |
