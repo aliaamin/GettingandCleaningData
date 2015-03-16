@@ -37,13 +37,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-- activity_labels.txt; containing columns: activity_id and activity_name (dimension = 6 x 2 )
-- features.txt; containing list of feature_number and features_name (dimension = 561 x 2) 
-- subject_train.txt in train folder; containing list of subjects (1:30) in the train category (dimension = 7352 x 1) 
-- X_train.txt; containing observation of measurements for each features (dimension = 11228 x 662)
-- y_train.txt; containing activities (1:6) of each subject in the training category (dimension = 7352 x 1)
-- subject_test.txt in test folder; containing list of subjects (1:30) in the test category (dimension = 2947 x 1) 
-- X_test.txt in test folder; containing observation of measurements for each features (dimension = 4312 x 667)
-- y_test.txt in test folder; containing activities (1:6) of each subject in the test category (dimension = 2947 x 1)
+		# activity_labels.txt; containing columns: activity_id and activity_name (dimension = 6 x 2 )
+		# features.txt; containing list of feature_number and features_name (dimension = 561 x 2) 
+		# subject_train.txt in train folder; containing list of subjects (1:30) in the train category (dimension = 7352 x 1) 
+		# X_train.txt; containing observation of measurements for each features (dimension = 7352 x 561)
+		# y_train.txt; containing activities (1:6) of each subject in the training category (dimension = 7352 x 1)
+		# subject_test.txt in test folder; containing list of subjects (1:30) in the test category (dimension = 2947 x 1) 
+		# X_test.txt in test folder; containing observation of measurements for each features (dimension = 2947 x 561)
+		# y_test.txt in test folder; containing activities (1:6) of each subject in the test category (dimension = 2947 x 1)
 
 
