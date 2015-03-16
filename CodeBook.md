@@ -8,10 +8,10 @@
 | domainSignal | time domain signals or frequency domain signals      | time, frequency          |
 | instrument     | measuring instrument       | accelerometer, gyroscope          |
 | accelerationSignal     | body or gravity acceleration signals      | body, gravity          |
-| stats     | type of statistics data: mean (mean) or standard deviation (std)      | mean, std          |
 | jerk     | jerk signal derived from body linear acceleration and angular velocity | jerk, NA          |
 | magnitude     | magnitude of the three-dimensional signals     | magnitude, NA          |
 | axis     |  axis      | x, y or z          |
+| stats     | type of statistics data: mean (mean) or standard deviation (std)      | mean, std          |
 | sum     | count data points      | integer value          |
 | average     | average of all observations      | numeric value          |
 
