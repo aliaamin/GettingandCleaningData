@@ -3,7 +3,7 @@
 
 | Variable        | Description           | Value          |
 | -------------|:-------------|:-------------|
-| subject      | ID of all the subjects whose data were collected from. | from 1 to 30           |
+| subject      | ID of all the subjects  | from 1 to 30           |
 | activity     | activity name      | laying, sitting, standing, walking, walking_downstairs, walking_upstairs          |
 | domainSignal | time domain signals or frequency domain signals      | time, frequency          |
 | instrument     | measuring instrument       | accelerometer, gyroscope          |
@@ -11,7 +11,7 @@
 | jerk     | jerk signal derived from body linear acceleration and angular velocity | jerk, NA          |
 | magnitude     | magnitude of the three-dimensional signals     | magnitude, NA          |
 | axis     |  axis      | x, y or z          |
-| stats     | type of statistics data: mean (mean) or standard deviation (std)      | mean, std          |
+| stats     | type of data: mean (mean) or standard deviation (std)      | mean, std          |
 | sum     | count data points      | integer value          |
 | average     | average of all observations      | numeric value          |
 
