@@ -37,22 +37,6 @@ runA <- function() {
                 d_subjecttest = read.table(f8, sep=" ")
 
 
-
-        # print(nrow(d_feature)) #561, 2
-#        print(nrow(d_activitylabel)) # 6, 2
-
-#        print(ncol(d_subjecttrain)) #7352, 1
-#        print(ncol(d_ytrain)) # 7352, 1
-#        print(ncol(d_xtrain)) # 7352, 561
-
-#        print(nrow(d_subjecttest)) # 2947 ,1
-#        print(ncol(d_ytest)) # 2947,1
-#        print(nrow(d_xtest)) #  2947, 561
-
-   
-
-
-
         # Step 0.2 prepare train dataset
         # combine subject (subject_train.txt) with activity type (y_train.txt) complete the label of each activity type with the correct label (activity_labels.txt)
 
@@ -88,7 +72,7 @@ runA <- function() {
 
         # step2: Extracts only the measurements on the mean and standard deviation for each measurement. 
         # find which measurement columns are the means and standard deviations
-        requiredColumnsList <- c(grep("std[()]",d_feature[[2]], ignore.case = TRUE),grep("mean[()]",d_feature[[2]], ignore.case = TRUE))
+        requiredColumnsList <- c(grep("std\\(\\)",d_feature[[2]], ignore.case = TRUE),grep("mean\\(\\)",d_feature[[2]], ignore.case = TRUE))
         requiredColumnsList <- sort(requiredColumnsList)
 
         # step 2.1 combine subject, activity, and mean and standard deviation measurements for all data 
