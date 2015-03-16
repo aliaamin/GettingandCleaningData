@@ -5,14 +5,14 @@
 | -------------|:-------------|:-------------|
 | subject      | ID of all the subjects whose data were collected from. | from 1 to 30           |
 | activity     | activity name      | tbd          |
-| domainSignal | Time (domain signal) or Frequency (domain signal)      | time, frequency          |
+| domainSignal | time domain signals or frequency domain signals      | time, frequency          |
 | instrument     | Measuring instrument:       | accelerometer, gyroscope          |
-| accelerationSignal     | Body or Gravity acceleration signal      | body, gravity          |
-| stats     | mean (mean) or standard deviation (std)      | mean, std          |
-| jerk     | jerk signal yes or no      | yes, no          |
-| magnitude     | magnitude      | tbd          |
+| accelerationSignal     | body or gravity acceleration signals      | body, gravity          |
+| stats     | type of statistics data: mean (mean) or standard deviation (std)      | mean, std          |
+| jerk     | jerk signal derived from body linear acceleration and angular velocity | jerk, NA          |
+| magnitude     | magnitude of the three-dimensional signals     | magnitude, NA          |
 | axis     |  axis      | x, y or z          |
-| count     | count data points      | integer value          |
+| sum     | count data points      | integer value          |
 | average     | average of all observations      | numeric value          |
 
 
