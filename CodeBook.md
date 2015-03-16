@@ -16,10 +16,6 @@
 | average     | average of all observations      | numeric value          |
 
 
-Information about the variables (including units!) in the data set not contained in the tidy data
-Information about the summary choices you made
-Information about the experimental study design you used
-
 ## Summary of steps taken
 		# step0: load raw data 
         # step1: Merges the training and the test sets to create one data set.
