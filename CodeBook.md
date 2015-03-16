@@ -1,10 +1,10 @@
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Variable        | Description           |
+| ------------- |:-------------:|
+| subject      | ID of all the subjects whose data were collected from. The ID is from 1 to 30 |
+| activity     | activity name      |
+| domainSignal | Time (domain signal) or Frequency (domain signal)      |
 
 
 | Variable | Description |
