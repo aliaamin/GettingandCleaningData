@@ -1,18 +1,19 @@
 
+## Variables Information
 
 | Variable        | Description           | Value          |
 | -------------|:-------------|:-------------|
-| subject      | ID of all the subjects whose data were collected from. | The ID is from 1 to 30           |
+| subject      | ID of all the subjects whose data were collected from. | from 1 to 30           |
 | activity     | activity name      | tbd          |
 | domainSignal | Time (domain signal) or Frequency (domain signal)      | time, frequency          |
-| instrument     | Measuring instrument: accelerometer or gyroscope      | tbd          |
-| accelerationSignal     | Body or Gravity acceleration signal      | tbd          |
-| stats     | mean (mean) or standard deviation (std)      | tbd          |
-| jerk     | jerk signal yes or no      | tbd          |
+| instrument     | Measuring instrument:       | accelerometer, gyroscope          |
+| accelerationSignal     | Body or Gravity acceleration signal      | body, gravity          |
+| stats     | mean (mean) or standard deviation (std)      | mean, std          |
+| jerk     | jerk signal yes or no      | yes, no          |
 | magnitude     | magnitude      | tbd          |
 | axis     |  axis      | x, y or z          |
-| count     | count data points      | tbd          |
-| average     | average of all observations      | tbd          |
+| count     | count data points      | integer value          |
+| average     | average of all observations      | numeric value          |
 
 
 Information about the variables (including units!) in the data set not contained in the tidy data
@@ -20,7 +21,7 @@ Information about the summary choices you made
 Information about the experimental study design you used
 
 
-## Raw data
+## Raw data: Experimental study design used
 Source: 
 A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
