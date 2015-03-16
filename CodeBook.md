@@ -20,6 +20,14 @@ Information about the variables (including units!) in the data set not contained
 Information about the summary choices you made
 Information about the experimental study design you used
 
+## Summary of steps taken
+		# step0: load raw data 
+        # step1: Merges the training and the test sets to create one data set.
+        # step2: Extracts only the measurements on the mean and standard deviation for each measurement. 
+        # step3: Uses descriptive activity names to name the activities in the data set
+        # step4: Appropriately labels the data set with descriptive variable names. 
+        # step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
 ## Raw data: Experimental study design used
 Source: 
