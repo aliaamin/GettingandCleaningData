@@ -29,10 +29,8 @@ Good luck!
 The script carries out the following steps:
 
         # step 0: load data
-		
 		    ## Step 0.2 prepare train dataset: combine subject (subject_train.txt) with activity type (y_train.txt) complete the label of each activity type with the correct label (activity_labels.txt)
 			## Step 0.3 prepare test dataset
-		
         # step1: Merges the training and the test sets to create one data set.
 		        ## step 1a. label all columns of all sensors correctly for test and train dataset
 				## step 1b. merge training data and test data				
