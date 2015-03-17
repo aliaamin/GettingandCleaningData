@@ -1,76 +1,76 @@
 
 ## Variables Information
 
-| Variable        |  
-|:-------------|
-| subject: ID of all the subjects from 1 to 30           |
-| activity: activity name: laying, sitting, standing, walking, walking_downstairs, walking_upstairs          |
-| time_body_accelerometer_mean_X-axis     | 
-| time_body_accelerometer_mean_Y-axis     | 
-| time_body_accelerometer_mean_Z-axis     | 
-| time_body_accelerometer_std_X-axis     | 
-| time_body_accelerometer_std_Y-axis     | 
-| time_body_accelerometer_std_Z-axis     | 
-| time_gravity_accelerometer_mean_X-axis     | 
-| time_gravity_accelerometer_mean_Y-axis     | 
-| time_gravity_accelerometer_mean_Z-axis     | 
-| time_gravity_accelerometer_std_X-axis     |  
-| time_gravity_accelerometer_std_Y-axis     | 
-| time_gravity_accelerometer_std_Z-axis     | 
-| time_body_accelerometer_jerk_mean_X-axis     | 
-| time_body_accelerometer_jerk_mean_Y-axis     | 
-| time_body_accelerometer_jerk_mean_Z-axis     | 
-| time_body_accelerometer_jerk_std_X-axis     | 
-| time_body_accelerometer_jerk_std_Y-axis     | 
-| time_body_accelerometer_jerk_std_Z-axis     | 
-| time_body_gyroscope_mean_X-axis     | 
-| time_body_gyroscope_mean_Y-axis     | 
-| time_body_gyroscope_mean_Z-axis     | 
-| time_body_gyroscope_std_X-axis     | 
-| time_body_gyroscope_std_Y-axis     | 
-| time_body_gyroscope_std_Z-axis     | 
-| time_body_gyroscope_jerk_mean_X-axis     | 
-| time_body_gyroscope_jerk_mean_Y-axis     | 
-| time_body_gyroscope_jerk_mean_Z-axis     | 
-| time_body_gyroscope_jerk_std_X-axis     | 
-| time_body_gyroscope_jerk_std_Y-axis     | 
-| time_body_gyroscope_jerk_std_Z-axis     | 
-| time_body_accelerometer_magnitude_mean     | 
-| time_body_accelerometer_magnitude_std     | 
-| time_gravity_accelerometer_magnitude_mean     | 
-| time_gravity_accelerometer_magnitude_std     | 
-| time_body_accelerometer_jerk_magnitude_mean     | 
-| time_body_accelerometer_jerk_magnitude_std     | 
-| time_body_gyroscope_magnitude_mean     | 
-| time_body_gyroscope_magnitude_std     | 
-| time_body_gyroscope_jerk_magnitude_mean     | 
-| time_body_gyroscope_jerk_magnitude_std     | 
-| frequency_body_accelerometer_mean_X-axis     | 
-| frequency_body_accelerometer_mean_Y-axis     | 
-| frequency_body_accelerometer_mean_Z-axis     | 
-| frequency_body_accelerometer_std_X-axis     | 
-| frequency_body_accelerometer_std_Y-axis     | 
-| frequency_body_accelerometer_std_Z-axis     | 
-| frequency_body_accelerometer_jerk_mean_X-axis     | 
-| frequency_body_accelerometer_jerk_mean_Y-axis     | 
-| frequency_body_accelerometer_jerk_mean_Z-axis     | 
-| frequency_body_accelerometer_jerk_std_X-axis     | 
-| frequency_body_accelerometer_jerk_std_Y-axis     | 
-| frequency_body_accelerometer_jerk_std_Z-axis     | 
-| frequency_body_gyroscope_mean_X-axis     | 
-| frequency_body_gyroscope_mean_Y-axis     | 
-| frequency_body_gyroscope_mean_Z-axis     | 
-| frequency_body_gyroscope_std_X-axis     | 
-| frequency_body_gyroscope_std_Y-axis     | 
-| frequency_body_gyroscope_std_Z-axis     | 
-| frequency_body_accelerometer_magnitude_mean     | 
-| frequency_body_accelerometer_magnitude_std     | 
-| frequency_body_body_accelerometer_jerk_magnitude_mean     | 
-| frequency_body_body_accelerometer_jerk_magnitude_std     | 
-| frequency_body_body_gyroscope_magnitude_mean     | 
-| frequency_body_body_gyroscope_magnitude_std     | 
-| frequency_body_body_gyroscope_jerk_magnitude_mean     | 
-| frequency_body_body_gyroscope_jerk_magnitude_std     | 
+| Variable        |  Value         |
+|:-------------|:-------------|
+| subject  |  ID of all the subjects from 1 to 30           |
+| activity: activity name  | laying, sitting, standing, walking, walking_downstairs, walking_upstairs          |
+| time_body_accelerometer_mean_X-axis     | numeric [-1,1] | 
+| time_body_accelerometer_mean_Y-axis     | numeric [-1,1] | 
+| time_body_accelerometer_mean_Z-axis     | numeric [-1,1] | 
+| time_body_accelerometer_std_X-axis     | numeric [-1,1] | 
+| time_body_accelerometer_std_Y-axis     | numeric [-1,1] | 
+| time_body_accelerometer_std_Z-axis     | numeric [-1,1] | 
+| time_gravity_accelerometer_mean_X-axis     | numeric [-1,1] | 
+| time_gravity_accelerometer_mean_Y-axis     | numeric [-1,1] | 
+| time_gravity_accelerometer_mean_Z-axis     | numeric [-1,1] | 
+| time_gravity_accelerometer_std_X-axis     |  numeric [-1,1] | 
+| time_gravity_accelerometer_std_Y-axis     | numeric [-1,1] | 
+| time_gravity_accelerometer_std_Z-axis     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_mean_X-axis     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_mean_Y-axis     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_mean_Z-axis     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_std_X-axis     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_std_Y-axis     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_std_Z-axis     | numeric [-1,1] | 
+| time_body_gyroscope_mean_X-axis     | numeric [-1,1] | 
+| time_body_gyroscope_mean_Y-axis     | numeric [-1,1] | 
+| time_body_gyroscope_mean_Z-axis     | numeric [-1,1] | 
+| time_body_gyroscope_std_X-axis     | numeric [-1,1] | 
+| time_body_gyroscope_std_Y-axis     | numeric [-1,1] | 
+| time_body_gyroscope_std_Z-axis     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_mean_X-axis     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_mean_Y-axis     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_mean_Z-axis     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_std_X-axis     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_std_Y-axis     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_std_Z-axis     | numeric [-1,1] | 
+| time_body_accelerometer_magnitude_mean     | numeric [-1,1] | 
+| time_body_accelerometer_magnitude_std     | numeric [-1,1] | 
+| time_gravity_accelerometer_magnitude_mean     | numeric [-1,1] | 
+| time_gravity_accelerometer_magnitude_std     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_magnitude_mean     | numeric [-1,1] | 
+| time_body_accelerometer_jerk_magnitude_std     | numeric [-1,1] | 
+| time_body_gyroscope_magnitude_mean     | numeric [-1,1] | 
+| time_body_gyroscope_magnitude_std     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_magnitude_mean     | numeric [-1,1] | 
+| time_body_gyroscope_jerk_magnitude_std     | numeric [-1,1] | 
+| frequency_body_accelerometer_mean_X-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_mean_Y-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_mean_Z-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_std_X-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_std_Y-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_std_Z-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_jerk_mean_X-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_jerk_mean_Y-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_jerk_mean_Z-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_jerk_std_X-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_jerk_std_Y-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_jerk_std_Z-axis     | numeric [-1,1] | 
+| frequency_body_gyroscope_mean_X-axis     | numeric [-1,1] | 
+| frequency_body_gyroscope_mean_Y-axis     | numeric [-1,1] | 
+| frequency_body_gyroscope_mean_Z-axis     | numeric [-1,1] | 
+| frequency_body_gyroscope_std_X-axis     | numeric [-1,1] | 
+| frequency_body_gyroscope_std_Y-axis     | numeric [-1,1] | 
+| frequency_body_gyroscope_std_Z-axis     | numeric [-1,1] | 
+| frequency_body_accelerometer_magnitude_mean     | numeric [-1,1] | 
+| frequency_body_accelerometer_magnitude_std     | numeric [-1,1] | 
+| frequency_body_body_accelerometer_jerk_magnitude_mean     | numeric [-1,1] | 
+| frequency_body_body_accelerometer_jerk_magnitude_std     | numeric [-1,1] | 
+| frequency_body_body_gyroscope_magnitude_mean     | numeric [-1,1] | 
+| frequency_body_body_gyroscope_magnitude_std     | numeric [-1,1] | 
+| frequency_body_body_gyroscope_jerk_magnitude_mean     | numeric [-1,1] | 
+| frequency_body_body_gyroscope_jerk_magnitude_std     | numeric [-1,1] | 
 
 
 
