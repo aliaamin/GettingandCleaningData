@@ -74,7 +74,7 @@ runA <- function() {
 
         # step2: Extracts only the measurements on the mean and standard deviation for each measurement. 
         # find which measurement columns are the means and standard deviations
-        requiredColumnsList <- c(grep("std\\(\\)",d_feature[[2]], ignore.case = TRUE),grep("mean\\(\\)",d_feature[[2]], ignore.case = TRUE))
+        requiredColumnsList <- c(grep("std\\(\\)|mean\\(\\)",d_feature[[2]], ignore.case = TRUE))        
         requiredColumnsList <- sort(requiredColumnsList)
 
         # combine subject, activity, and mean and standard deviation measurements for all data 
