@@ -41,11 +41,13 @@ runA <- function() {
         # combine subject (subject_train.txt) with activity type (y_train.txt) complete the label of each activity type with the correct label (activity_labels.txt)
 
         combidata <- cbind(d_subjecttrain, d_ytrain)
+        
         setnames(d_activitylabel, c("activity_type", "activity") )
         setnames(combidata, c("subject","activity_type") )
 
         combidata <- merge(combidata, d_activitylabel, all = TRUE )
         combidata <- combidata[,c("subject", "activity")] # remove the column "activity_type" as this is redundant with "activity"
+
 
         # Step 0.3 prepare test dataset
 
@@ -91,7 +93,7 @@ runA <- function() {
                 collabel <- names(totalData)[i]
                 collabel <- sub("^t", "time_", collabel)
                 collabel <- sub("^f", "frequency_", collabel)
-                collabel <- sub("Body", "body_", collabel)
+                collabel <- gsub("Body", "body_", collabel)
                 collabel <- sub("Gravity", "gravity_", collabel)
                 collabel <- sub("Acc", "accelerometer_", collabel)
                 collabel <- sub("Gyro", "gyroscope_", collabel)
@@ -111,7 +113,7 @@ runA <- function() {
         x<- summarise_each(maingroup, funs(mean))  
 
         fi <- file.path(getwd(), "run_analysis_result.txt")
-        write.table(x, fi, quote = FALSE, sep = "\t", row.names = FALSE)
-
+        write.table(x, fi, quote = FALSE, sep = ",", row.names = FALSE)
+        
         return(x)       
 }
