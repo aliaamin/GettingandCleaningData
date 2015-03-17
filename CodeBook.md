@@ -4,7 +4,7 @@
 | Variable        |  Value         |
 |:-------------|:-------------|
 | subject  |  ID of all the subjects from 1 to 30           |
-| activity: activity name  | laying, sitting, standing, walking, walking_downstairs, walking_upstairs          |
+| activity  | laying, sitting, standing, walking, walking_downstairs, walking_upstairs          |
 | time_body_accelerometer_mean_X-axis     | numeric [-1,1] | 
 | time_body_accelerometer_mean_Y-axis     | numeric [-1,1] | 
 | time_body_accelerometer_mean_Z-axis     | numeric [-1,1] | 
