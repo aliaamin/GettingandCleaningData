@@ -73,8 +73,8 @@
 | frequency_body_body_gyroscope_jerk_magnitude_std     | numeric [-1,1] | 
 
 
-## Variable
 'data.frame':	10299 obs. of  68 variables:
+| Variable   | - |
 |:-------------|:-------------|
 |  $ subject     |                                          : int  1 1 1 1 1 1 1 1 1 1 ... | 
 |  $ activity    |                                         : Factor w/ 6 levels "LAYING","SITTING",..: 4 4 4 4 4 4 4 4 4 4 ... | 
