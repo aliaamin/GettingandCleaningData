@@ -78,16 +78,19 @@
 | Variable        |  Note         |
 |:-------------|:-------------|
 | $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
+| $activity  |  Factor w/ 6 levels "LAYING","SITTING",..: 4 4 4 4 4 4 4 4 4 4 ...           |
+| $time_body_accelerometer_mean_X-axis  |  num  0.279 0.282 0.276 0.287 0.28 ...           |
+| $time_body_accelerometer_mean_Y-axis  |  num  -0.0177 -0.0119 -0.018 -0.0375 -0.0184 ...           |
+| $time_body_accelerometer_mean_Z-axis  |  num  -0.109 -0.103 -0.107 -0.146 -0.107 ...           |
+| $time_body_accelerometer_std_X-axis  |  num  -0.998 -0.999 -0.999 -0.983 -0.996 ...           |
+| $time_body_accelerometer_std_Y-axis  |  num  -0.987 -0.988 -0.994 -0.892 -0.994 ...           |
+| $time_body_accelerometer_std_Z-axis  |  num  -0.991 -0.993 -0.994 -0.941 -0.992 ...           |
+| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
+| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
+| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
+| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
 
-
-|  $ activity    |                                         : Factor w/ 6 levels "LAYING","SITTING",..: 4 4 4 4 4 4 4 4 4 4 ... | 
-|  $ time_body_accelerometer_mean_X-axis                  : num  0.279 0.282 0.276 0.287 0.28 ... | 
-|  $ time_body_accelerometer_mean_Y-axis                  : num  -0.0177 -0.0119 -0.018 -0.0375 -0.0184 ... | 
-|  $ time_body_accelerometer_mean_Z-axis                  : num  -0.109 -0.103 -0.107 -0.146 -0.107 ... | 
-|  $ time_body_accelerometer_std_X-axis                   : num  -0.998 -0.999 -0.999 -0.983 -0.996 ... | 
-|  $ time_body_accelerometer_std_Y-axis                   : num  -0.987 -0.988 -0.994 -0.892 -0.994 ... | 
-|  $ time_body_accelerometer_std_Z-axis                   : num  -0.991 -0.993 -0.994 -0.941 -0.992 ... | 
-|  $ time_gravity_accelerometer_mean_X-axis               : num  0.953 0.953 0.955 0.836 -0.209 ... | 
+|  $time_gravity_accelerometer_mean_X-axis               : num  0.953 0.953 0.955 0.836 -0.209 ... | 
 |  $ time_gravity_accelerometer_mean_Y-axis               : num  -0.265 -0.265 -0.26 0.161 0.771 ...| 
 |  $ time_gravity_accelerometer_mean_Z-axis               : num  -0.0127 -0.01313 -0.00996 0.39982 0.59002 ...| 
 |  $ time_gravity_accelerometer_std_X-axis                : num  -0.998 -0.997 -0.999 -0.96 -0.998 ...| 
