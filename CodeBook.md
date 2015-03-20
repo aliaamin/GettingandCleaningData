@@ -117,47 +117,34 @@
 | $time_body_accelerometer_jerk_magnitude_std  |  num  -0.994 -0.995 -0.995 -0.995 -0.995 ...           |
 | $time_body_gyroscope_magnitude_mean  |  num  -0.997 -0.996 -0.996 -0.895 -0.996 ...           |
 | $time_body_gyroscope_magnitude_std  |  num  -0.998 -0.997 -0.996 -0.953 -0.998 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-| $subject  |  int  1 1 1 1 1 1 1 1 1 1 ...           |
-
-
-
-|  $time_body_gyroscope_jerk_magnitude_mean              : num  -0.998 -0.997 -0.997 -0.998 -0.999 ...| 
-|  $time_body_gyroscope_jerk_magnitude_std               : num  -0.999 -0.999 -0.998 -0.999 -0.999 ...| 
-|  $frequency_body_accelerometer_mean_X-axis             : num  -0.998 -0.999 -0.999 -0.986 -0.996 ...| 
-|  $frequency_body_accelerometer_mean_Y-axis             : num  -0.985 -0.987 -0.99 -0.932 -0.993 ...| 
-|  $frequency_body_accelerometer_mean_Z-axis             : num  -0.99 -0.993 -0.993 -0.98 -0.992 ...| 
-|  $ frequency_body_accelerometer_std_X-axis              : num  -0.999 -0.998 -0.999 -0.981 -0.997 ...| 
-|  $ frequency_body_accelerometer_std_Y-axis              : num  -0.988 -0.989 -0.995 -0.88 -0.994 ...| 
-|  $ frequency_body_accelerometer_std_Z-axis              : num  -0.991 -0.993 -0.995 -0.929 -0.991 ...| 
-|  $ frequency_body_accelerometer_jerk_mean_X-axis        : num  -0.997 -0.997 -0.997 -0.993 -0.995 ...| 
-|  $ frequency_body_accelerometer_jerk_mean_Y-axis        : num  -0.986 -0.986 -0.989 -0.989 -0.992 ...| 
-|  $ frequency_body_accelerometer_jerk_mean_Z-axis        : num  -0.99 -0.991 -0.989 -0.992 -0.992 ...| 
-|  $ frequency_body_accelerometer_jerk_std_X-axis         : num  -0.997 -0.997 -0.996 -0.993 -0.995 ...| 
-|  $ frequency_body_accelerometer_jerk_std_Y-axis         : num  -0.986 -0.989 -0.99 -0.988 -0.991 ...| 
-|  $ frequency_body_accelerometer_jerk_std_Z-axis         : num  -0.994 -0.993 -0.992 -0.995 -0.993 ...| 
-|  $ frequency_body_gyroscope_mean_X-axis                 : num  -0.998 -0.995 -0.992 -0.994 -0.999 ...| 
-|  $ frequency_body_gyroscope_mean_Y-axis                 : num  -0.998 -0.998 -0.997 -0.98 -0.996 ...| 
-|  $ frequency_body_gyroscope_mean_Z-axis                 : num  -0.994 -0.993 -0.995 -0.978 -0.995 ...| 
-|  $ frequency_body_gyroscope_std_X-axis                  : num  -0.999 -0.997 -0.995 -0.994 -0.999 ...| 
-|  $ frequency_body_gyroscope_std_Y-axis                  : num  -0.998 -0.998 -0.998 -0.973 -0.993 ...| 
-|  $ frequency_body_gyroscope_std_Z-axis                  : num  -0.997 -0.995 -0.998 -0.969 -0.995 ...| 
-|  $ frequency_body_accelerometer_magnitude_mean          : num  -0.995 -0.994 -0.996 -0.954 -0.994 ... | 
-|  $ frequency_body_accelerometer_magnitude_std           : num  -0.998 -0.995 -0.999 -0.931 -0.995 ... | 
-|  $ frequency_body_body_accelerometer_jerk_magnitude_mean: num  -0.994 -0.994 -0.993 -0.995 -0.994 ... | 
-|  $ frequency_body_body_accelerometer_jerk_magnitude_std : num  -0.993 -0.995 -0.996 -0.993 -0.994 ... | 
-|  $ frequency_body_body_gyroscope_magnitude_mean         : num  -0.998 -0.997 -0.997 -0.97 -0.998 ... | 
-|  $ frequency_body_body_gyroscope_magnitude_std          : num  -0.998 -0.998 -0.996 -0.951 -0.998 ... | 
-|  $ frequency_body_body_gyroscope_jerk_magnitude_mean    : num  -0.999 -0.999 -0.998 -0.999 -0.999 ... | 
-|  $ frequency_body_body_gyroscope_jerk_magnitude_std     : num  -0.999 -0.999 -0.999 -0.999 -0.998 ... | 
+| $time_body_gyroscope_jerk_magnitude_mean  |  num  -0.998 -0.997 -0.997 -0.998 -0.999 ...           |
+| $time_body_gyroscope_jerk_magnitude_std  |  num  -0.999 -0.999 -0.998 -0.999 -0.999 ...           |
+| $frequency_body_accelerometer_mean_X-axis  |  num  -0.998 -0.999 -0.999 -0.986 -0.996 ...           |
+| $frequency_body_accelerometer_mean_Y-axis  |  num  -0.985 -0.987 -0.99 -0.932 -0.993 ...           |
+| $frequency_body_accelerometer_mean_Z-axis  |  num  -0.99 -0.993 -0.993 -0.98 -0.992 ...           |
+| $frequency_body_accelerometer_std_X-axis  |  num  -0.999 -0.998 -0.999 -0.981 -0.997 ...           |
+| $frequency_body_accelerometer_std_Y-axis  |  num  -0.988 -0.989 -0.995 -0.88 -0.994 ...           |
+| $frequency_body_accelerometer_std_Z-axis  |  num  -0.991 -0.993 -0.995 -0.929 -0.991 ...           |
+| $frequency_body_accelerometer_jerk_mean_X-axis  |  num  -0.997 -0.997 -0.997 -0.993 -0.995 ...           |
+| $frequency_body_accelerometer_jerk_mean_Y-axis  |  num  -0.986 -0.986 -0.989 -0.989 -0.992 ...           |
+| $frequency_body_accelerometer_jerk_mean_Z-axis  |  num  -0.99 -0.991 -0.989 -0.992 -0.992 ...           |
+| $frequency_body_accelerometer_jerk_std_X-axis  |  num  -0.997 -0.997 -0.996 -0.993 -0.995 ...           |
+| $frequency_body_accelerometer_jerk_std_Y-axis  |  num  -0.986 -0.989 -0.99 -0.988 -0.991 ...           |
+| $frequency_body_accelerometer_jerk_std_Z-axis  |  num  -0.994 -0.993 -0.992 -0.995 -0.993 ...           |
+| $frequency_body_gyroscope_mean_X-axis  |  num  -0.998 -0.995 -0.992 -0.994 -0.999 ...           |
+| $frequency_body_gyroscope_mean_Y-axis  |  num  -0.998 -0.998 -0.997 -0.98 -0.996 ...           |
+| $frequency_body_gyroscope_mean_Z-axis  |  num  -0.994 -0.993 -0.995 -0.978 -0.995 ...           |
+| $frequency_body_gyroscope_std_X-axis  |  num  -0.999 -0.997 -0.995 -0.994 -0.999 ...           |
+| $frequency_body_gyroscope_std_Y-axis  |  num  -0.998 -0.998 -0.998 -0.973 -0.993 ...           |
+| $frequency_body_gyroscope_std_Z-axis  |  num  -0.997 -0.995 -0.998 -0.969 -0.995 ...           |
+| $frequency_body_accelerometer_magnitude_mean  |  num  -0.995 -0.994 -0.996 -0.954 -0.994 ...           |
+| $frequency_body_accelerometer_magnitude_std  |  num  -0.998 -0.995 -0.999 -0.931 -0.995 ...           |
+| $frequency_body_body_accelerometer_jerk_magnitude_mean  |  num  -0.994 -0.994 -0.993 -0.995 -0.994 ...           |
+| $frequency_body_body_accelerometer_jerk_magnitude_std  |  um  -0.993 -0.995 -0.996 -0.993 -0.994 ...           |
+| $frequency_body_body_gyroscope_magnitude_mean  |  num  -0.998 -0.997 -0.997 -0.97 -0.998 ...           |
+| $frequency_body_body_gyroscope_magnitude_std  |  num  -0.998 -0.998 -0.996 -0.951 -0.998 ...           |
+| $frequency_body_body_gyroscope_jerk_magnitude_mean  |  num  -0.999 -0.999 -0.998 -0.999 -0.999 ...           |
+| $frequency_body_body_gyroscope_jerk_magnitude_std  |  num  -0.999 -0.999 -0.999 -0.999 -0.998 ...           |
 
 ## Summary of steps taken
 
