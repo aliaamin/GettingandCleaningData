@@ -18,7 +18,7 @@
 | $time_gravity_accelerometer_mean_Z-axis   |  num [-1,1]   |  -0.0127 -0.01313 -0.00996 0.39982 0.59002 ...           |
 | $time_gravity_accelerometer_std_X-axis  |  num [-1,1]   |  -0.998 -0.997 -0.999 -0.96 -0.998 ...           |
 | $time_gravity_accelerometer_std_Y-axis  |  num [-1,1]   |  -0.992 -0.991 -0.997 -0.896 -0.996 ...           |
-| $time_gravity_accelerometer_std_Z-axis  |  num  -0.993 -0.995 -0.998 -0.911 -0.997 ...           |
+| $time_gravity_accelerometer_std_Z-axis  |  num [-1,1]   |  -0.993 -0.995 -0.998 -0.911 -0.997 ...           |
 | $time_body_accelerometer_jerk_mean_X-axis  |  num [-1,1]   | 0.0786 0.0749 0.0735 0.0895 0.0735 ...           |
 | $time_body_accelerometer_jerk_mean_Y-axis  |  num [-1,1]   | 0.0165 0.00995 0.01837 -0.03432 0.01082 ...           |
 | $time_body_accelerometer_jerk_mean_Z-axis  |  num [-1,1]   | -4.85e-05 6.88e-04 1.44e-03 3.06e-03 -1.96e-03 ...           |
