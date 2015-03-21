@@ -75,7 +75,6 @@
 
 | Variable        |  Value         | Example         |
 |:-------------|:-------------|:-------------|
-
 | $subject  |  int   |   1 1 1 1 1 1 1 1 1 1 ...           |
 | $activity  |  Factor w/ 6 levels   |  "LAYING","SITTING",..: 4 4 4 4 4 4 4 4 4 4 ...           |
 | $time_body_accelerometer_mean_X-axis  |  num   |   0.279 0.282 0.276 0.287 0.28 ...           |
